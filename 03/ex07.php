@@ -53,9 +53,8 @@
 		$n2 = $_GET['n2'];
 		$n3 = $_GET['n3'];
 		$n4 = $_GET['n4'];
-		$notas = ($n1*$n2*$n3*$n4);
 
-		$media = $notas / 4;
+		$media = ($n1 + $n2 + $n3 + $n4) / 4;
 
 		echo "<p>A média do aluno é $media</p>";
 	}
