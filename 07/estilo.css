@@ -1,0 +1,62 @@
+/* folha de estilo personalizada */
+
+body {
+	font-family: Verdana; /* tipo da fonte */
+	font-size: 14px; /* tamanho da fonte */
+	color: #4F4F4F; /* tom de cinza claro */
+	background-color: #DCDCDC; /* tom de cinza médio */
+}
+
+h1, h2, h3 {
+	color: #4169E1; /* tom de azul médio */
+	font-family: Arial; /* fonte arial */
+}
+
+label {
+	font-weight: bold; /* negrito */
+	font-style: italic; /* itálico */ 
+}
+
+.fields{
+	padding: 5px;
+	border-radius: 10px;
+	border-style: solid;
+}
+
+.fields:focus{
+	outline: none;
+}
+
+.btn{
+	padding: 3px;
+	border-radius: 8px;
+	border-style: solid;
+}
+.submit{
+	background-color: #7FFFD4;
+}
+
+.submit:hover{
+	background-color: #B0E0E6;
+}
+
+.submit:active{
+	background-color: #00FA9A;
+}
+
+.reset{
+	background-color: #F08080;
+}
+
+.reset:hover{
+	background-color: #D8BFD8;
+}
+
+.reset:active{
+	background-color: #800000;
+	color: white;
+}
+
+span {
+	font-weight: bold;
+}
