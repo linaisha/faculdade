@@ -1,0 +1,20 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class exercicio02 {
+	public static void main(String[]args) {
+		
+		Scanner input = new Scanner(System.in);
+		double r, d, e, p;
+		
+		System.out.println("Informe quantos reais: ");
+		r = input.nextDouble();
+		
+		d = r / 3.78;
+		e = r / 4.21;
+		p = r / 0.08;
+		
+		System.out.println("R$"+ r + " reais são:\nU$"+d+" dolares\n$"+e+" euros\n$"+p+" pesos");
+	}
+}
