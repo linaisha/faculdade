@@ -1,0 +1,23 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class exercicio01 {
+	public static void main(String[]args) {
+		
+		Scanner input = new Scanner(System.in);
+		double h, l, area;
+		
+		System.out.println("Informe o valor da altura: ");
+		h = input.nextDouble();
+		System.out.println("Informe o valor da largura: ");
+		l = input.nextDouble();
+		
+		area = h*l;
+		
+		System.out.println("\nA altura do retângulo: " + h);
+		System.out.println("\nA largura do retângulo: " + l);
+		System.out.println("\nA área do retângulo: " + area);
+		
+	}
+}
